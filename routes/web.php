@@ -10,6 +10,8 @@ use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\PurchaseController;
 
 
+
+
 Route::resource('items', ItemController::class)
 ->middleware(['auth', 'verified']);
 
